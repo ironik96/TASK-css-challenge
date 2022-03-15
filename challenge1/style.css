@@ -1,0 +1,24 @@
+body{
+    background-color: #1b0c2c;
+}
+
+.hp-book {
+    display: block;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: 300px;
+    width: 200px;
+    overflow: hidden;
+    
+}
+
+h1,p {
+    color: white;
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Sansita Swashed', cursive;
+}
