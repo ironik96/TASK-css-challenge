@@ -1,11 +1,30 @@
 /* Add your code in each class */
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300;400;500&display=swap');
+
 .container {
+  height: 300px;
+  width: 400px;
+  overflow: scroll;
+  background-color: #f4f8ab;
 }
 .head {
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+  color: white;
+  background-color: #ce6c1a;
+  text-align: center;
+  padding: 15px;
+  font-family: 'Fredoka', sans-serif;
+  font-weight: 400;
+  font-size: large;
 }
 
 .row {
   /* .row is used in ./index.js not in the html filee */
+  font-family: 'Fredoka', sans-serif;
+  font-weight: 300;
+  font-size: 16px;
 }
 
 /* This is a gift - Does not need editing */
